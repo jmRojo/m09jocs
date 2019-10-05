@@ -10,7 +10,7 @@ namespace jocs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tria:\n1. Solitari\n2. Age of empires\n3. Doom\n4. Warcraft\n5. Minecraft\n6. Tropico");
+            Console.WriteLine("Tria:\n1. Solitari\n2. Age of empires\n3. Doom\n4. Warcraft\n5. Buscamines\n6. Minecraft\n7. Tropico");
             int opcioEscollida = int.Parse(Console.ReadLine());
             switch (opcioEscollida)
             {
@@ -24,12 +24,15 @@ namespace jocs
                     Console.WriteLine("El doom es un joc de matar marcians");
                     break;
                 case 4:
-                    Console.WriteLine("El warcraft es un joc d'estrategia pre d'orcs i elfs");
+                    Console.WriteLine("El warcraft es un joc d'estrategia ple d'orcs i elfs");
                     break;
                 case 5:
-                    Console.WriteLine("El minecraft es un joc molt quadrat");
+                    Console.WriteLine("El buscamines es un joc de buscar mines");
                     break;
                 case 6:
+                    Console.WriteLine("El minecraft es un joc molt quadrat");
+                    break;
+                case 7:
                     Console.WriteLine("Tropico es un joc on gestiones la teva propia republica bananera");
                     break;
                 default:
