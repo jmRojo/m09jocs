@@ -10,7 +10,7 @@ namespace jocs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Tria:\n1. Solitari\n2. Age of empires\n3. Doom\n4. Warcraft");
+            Console.WriteLine("Tria:\n1. Solitari\n2. Age of empires\n3. Doom\n4. Warcraft\n5. Buscamines");
             int opcioEscollida = int.Parse(Console.ReadLine());
             switch (opcioEscollida)
             {
@@ -25,6 +25,9 @@ namespace jocs
                     break;
                 case 4:
                     Console.WriteLine("El warcraft es un joc d'estrategia pre d'orcs i elfs");
+                    break;
+                case 5:
+                    Console.WriteLine("El buscamines es un joc de buscar mines");
                     break;
                 default:
                     Console.WriteLine("Crec que t'has colat");
